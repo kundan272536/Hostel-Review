@@ -109,7 +109,12 @@ header{
     margin: 20px;
    
 }
-
+.btn{
+    margin: 5px;
+}
+.btn:hover{
+    color: aqua;
+}
 /*Paragraph section*/
 .paragraph{
     margin: 20px;
@@ -119,13 +124,19 @@ header{
     font-style:oblique;
 }
 /*Contact page */
-.contact-page{
+#contact-page{
     margin: 100px 20px 20px;
     border-style: dashed;
 }
 .form{
     border-style: solid;
     color: black;
+}
+.text{
+    margin: 5px;
+}
+.box{
+    margin: 5px;
 }
 /*Footer Section*/
 footer{

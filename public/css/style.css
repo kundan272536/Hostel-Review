@@ -1,0 +1,139 @@
+body{
+/* background-image: url("/images/img1.jpeg"); */
+/* background-color:white; */
+
+text-align: center;
+background-size: 100% 100%;
+font-family:"Montesrrat";
+font-weight: bold;
+
+}
+/*Navbar section*/
+header{
+    overflow: hidden;
+   background-color: #EFFFFD;
+   position: fixed;
+   top: 0;
+   width: 100%;
+}
+.navbar-nav{
+    margin-left: 80%;
+}
+/* Register and Login Page */
+.Register-Login{
+    margin: 20% 20% 20 ;
+}
+/* .Register-Login h1{
+    color:whitesmoke;
+} */
+/*Register Page*/
+.register{
+    margin: 15% 5% ;
+
+}
+/*Login Page*/
+.login{
+    margin: 15% 5%;
+}
+/* Home Page */
+.home{
+    margin:100px 20px  20px;
+}
+.home img{
+    height: 700px;
+}
+/*Form*/
+ .form{
+    padding: 20px;
+    background-color: #E1FFEE;
+}
+.card{
+    margin-left: 50%;
+}
+.btn{
+    margin-top: 10px;
+}
+.container{
+    margin-top: 0px;
+}
+/*About Page*/
+#about{
+    margin-top: 80px;
+}
+
+
+/*Hostels Page*/
+.hostels{
+    margin-top: 80px 20px 20px 20px;
+    background-color: #6b7b8c ;
+    color: white;
+    border-radius: 40px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.hostel-heading{
+    margin: 100px 20px 20px;
+}
+
+/*Boys-Hostels Page*/
+.boys-hostels{
+    margin: 100px 20px 20px;
+}
+/*Girls-Hostels*/
+.girls-hostels{
+  margin: 20px;
+  background-color: #ced7d8;
+  color: white;
+  border-radius: 20px;
+}
+.girls-hostels img{
+    margin: 10px;
+    height: 320px;
+    width: 450px;
+    border-radius: 20px;
+}
+.girls-hostels img:hover{
+    opacity: 0.3;
+}
+
+/*Hostels Facility*/
+.hostels-facility{
+    margin: 20px;
+    background-color: yellow;
+    border-radius: 10px;
+}
+.hostels-facility img{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+   
+}
+
+/*Paragraph section*/
+.paragraph{
+    margin: 20px;
+    color: rgb(11, 10, 10);
+    text-align: justify;
+    font-size: large;
+    font-style:oblique;
+}
+/*Contact page */
+.contact-page{
+    margin: 100px 20px 20px;
+    border-style: dashed;
+}
+.form{
+    border-style: solid;
+    color: black;
+}
+/*Footer Section*/
+footer{
+    position: fixed;
+   background-color: antiquewhite;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    
+}
+/*Image*/

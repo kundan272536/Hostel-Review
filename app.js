@@ -9,7 +9,7 @@ app.use(bodyparser.urlencoded({
     extended:true
 }));
 // mongoose.set('strictQuery', true);
-// mongoose.connect("mongodb://localhost:27017/hostelDb",{useNewUrlParser:true});
+// mongoose.connect("mongodb://localhost:27017/hostelDb",{useNewUrlParser:true, useUnifiedTopology: true});
 
 // const userSchema={
 //     email:String,

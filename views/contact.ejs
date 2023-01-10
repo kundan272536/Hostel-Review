@@ -1,28 +1,45 @@
 <%-include('partials/header');-%>
 <div id="contact-page">
-    <div class="form"> 
-        <form action="" >
-            <div class="details">
-                <div class="text">
-                    <label for="name">Student Name</label>
-                    <div class="box">
-                        <input type="text">
-                    </div>
-                </div>
-                   
-            </div>
-            <div class="details">
-                <div class="text">
-                    <label for="email">Email</label>
-                    <div class="box">
-                        <input type="email">
-                    </div>
-                </div>
-                
-            </div>            
-        </form>
-    </div>
-        
+     
+        <table>
+           <tr>
+            <td>
+                <label for="name">FName:</label> 
+                <input type="text" placeholder="enter your FirstName" class="rect-box">
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <label for="email">MName:</label>
+                <input type="email" placeholder="enter your MiddleName"class="rect-box">
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <label for="email">LName:</label>
+                <input type="email" placeholder="enter your LastName"class="rect-box"> 
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <label for="email">Email:</label>
+                <input type="email" placeholder="enter your email"class="rect-box">
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <label for="email">MobileNo:</label>
+                <input type="email" placeholder="enter your email"class="rect-box">
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <label for="start">Date of Birth:</label>:</label>
+                <input type="date" id="start" name="trip-start"value="2018-07-22"min="2000-01-01" max="2023-12-31"class="rect-box"> 
+            </td>
+            </tr>         
+        </table> 
+        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
 </div>
 
 <%-include('partials/footer');-%>

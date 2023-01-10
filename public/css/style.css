@@ -64,7 +64,6 @@ header{
 
 /*Hostels Page*/
 .hostels{
-    margin-top: 80px 20px 20px 20px;
     background-color: #6b7b8c ;
     color: white;
     border-radius: 40px;
@@ -128,7 +127,7 @@ header{
     margin: 100px 20px 20px;
     border-style: dashed;
 }
-.form{
+/* .form{
     border-style: solid;
     color: black;
 }
@@ -137,6 +136,16 @@ header{
 }
 .box{
     margin: 5px;
+} */
+table{
+   border-radius: 5px;
+   border-style: solid;
+   color: black;
+   margin-left: 600px;
+}
+.rect-box{
+    margin-right: 0px;
+    margin-top: 1px;
 }
 /*Footer Section*/
 footer{
